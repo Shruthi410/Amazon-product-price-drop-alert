@@ -29,5 +29,5 @@ if price_as_float < 135:
         connection.sendmail(
             from_addr=GMAIL,
             to_addrs="shruthidakshinamurthy@gmail.com",
-            msg=f"Subject:Amazon product price drop!\n\n{product_title} is now {price}. \n\n\n{URL}"
+            msg=f"Subject:Amazon product price drop!\n\n{product_title} is now ${price}. \n\n\n{URL}"
         )
